@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-pixel {
+    font-family: 'Press Start 2P', monospace;
+  }
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: none;
+  background-color: #020617;
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+/* Minecraft button style */
+.mc-button {
+  background: #555555;
+  border-top: 3px solid #888888;
+  border-left: 3px solid #888888;
+  border-bottom: 3px solid #222222;
+  border-right: 3px solid #222222;
+  box-shadow: inset 1px 1px 0px #aaaaaa, inset -1px -1px 0px #333333;
+  color: #ffffff;
+  text-shadow: 2px 2px #111111;
+  font-family: 'Press Start 2P', monospace;
+  transition: filter 0.1s ease;
+}
+
+.mc-button:active {
+  border-top: 3px solid #222222;
+  border-left: 3px solid #222222;
+  border-bottom: 3px solid #888888;
+  border-right: 3px solid #888888;
+  filter: brightness(0.9);
+}
+
+.mc-panel {
+  background: rgba(16, 20, 30, 0.85);
+  border: 3px solid #3b4252;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6), inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+}

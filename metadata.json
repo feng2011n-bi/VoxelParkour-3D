@@ -1,0 +1,6 @@
+{
+  "name": "VoxelParkour 3D",
+  "description": "Бесконечный 3D паркур от первого лица в стиле Minecraft с процедурной генерацией, комбо-счётом и оптимизацией для 32-битных мобильных устройств Android.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
